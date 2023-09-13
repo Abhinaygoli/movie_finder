@@ -4,6 +4,16 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color:beige;
 }
+header{
+    background-color: rgb(132, 132, 224);
+}
+header>h1{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
 #input-element-wrapper{
     position: relative;
     text-align: center;
