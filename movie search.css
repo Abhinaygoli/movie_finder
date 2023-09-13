@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color:beige;
+}
+#input-element-wrapper{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+#search-icon{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translatey(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+#input-tag{
+    padding-right: 65px;
+    padding-left: 30px;
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#input-tag:hover{
+    box-shadow: 4px 4px 5px blueviolet,-2px -2px 5px blueviolet;
+}
+#search{
+    font-size: 22px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+#search:hover{
+    box-shadow: 4px 4px 5px blueviolet,-2px -2px 5px blueviolet;
+}
+#movie-wrapper{
+    width: 70%;
+    margin: 40px auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: cadetblue;
+    border-radius: 15px;
+}
+.movie-card{
+    width: 29.5%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color:rgb(81, 72, 72);
+    cursor: pointer;
+    margin-top: 20px;
+}
+.movie-card:hover{
+    box-shadow: 3px 3px 6px rgb(255, 163, 25),-3px -3px 6px rgb(252, 177, 47);
+    transform: scale(1.02);
+}
+.movie-poster{
+    width: 100%;
+    height:300px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.movie-title{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.movie-year{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+#message{
+    background-color: black;
+    color: red;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 30px;
+    height: 80px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#loading-message{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+@media (max-width:797px){
+    #search-icon{
+        font-size: 15px;
+        left: 52.5%;
+    }
+    #input-tag{
+        padding-right: 50px;
+        padding-left: 20px;
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
+    }
+    #search{
+        font-size: 15px;
+        height: 44px;
+        margin-left: 20px;
+        padding: 2px 20px;
+    }
+    #movie-wrapper{
+        width: 80%;
+    }
+    .movie-card{
+        width: 29.5%;
+        margin: 5px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    .movie-poster{
+        height:170px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .movie-title{
+        font-size: 10px;
+    }
+    .movie-year{
+        font-size: 10px;
+    }
+}
+@media (min-width:796px){
+    #search-icon{
+        left: 56%;
+        font-size: 24px;
+    }
+    #input-tag{
+        padding-right: 65px;
+        padding-left: 30px;
+        width: 320px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    #search{
+        font-size: 22px;
+        height: 50px;
+        margin-left: 20px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    #movie-wrapper{
+        width: 70%;
+        margin: 40px auto 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: cadetblue;
+        border-radius: 15px;
+    }
+    .movie-card{
+        width: 29.5%;
+        margin: 10px;
+        border-radius: 20px;
+        background-color:rgb(81, 72, 72);
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .movie-poster{
+        height:300px;
+    }
+    .movie-title{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .movie-year{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
