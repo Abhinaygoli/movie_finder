@@ -1,9 +1,4 @@
 
-/*
-http://www.omdbapi.com/?i=tt3896198&apikey=8ad164ad&s=";
-"http://www.omdbapi.com/?apikey=8ad164ad&i= */
-
-
 var searchButtonElement = document.getElementById("search")
 var inputTagElement = document.getElementById('input-tag')
 var movieWrapperElement = document.getElementById("movie-wrapper")
